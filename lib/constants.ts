@@ -1,14 +1,14 @@
-export const DEFAULT_MODEL = "xai/grok-3";
+export const DEFAULT_MODEL = "openai/gpt-oss-120b";
 
 export const SUPPORTED_MODELS = [
-  "amazon/nova-lite",
-  "amazon/nova-micro",
-  "anthropic/claude-3.5-haiku",
-  "google/gemini-2.0-flash",
-  "google/gemma2-9b-it",
-  "meta/llama-3.1-8b",
-  "mistral/ministral-3b",
-  "openai/gpt-3.5-turbo",
+  "anthropic/claude-sonnet-4",
+  "anthropic/claude-opus-4.1",
+  "openai/gpt-5",
+  "openai/o3",
+  "openai/gpt-5-mini ",
+  "openai/gpt-oss-120b",
   "openai/gpt-4o-mini",
+  "openai/gpt-5-nano",
+  "xai/grok-4",
   "xai/grok-3",
 ];
